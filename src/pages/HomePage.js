@@ -99,7 +99,7 @@ const HomePage = () => {
 
       {/* Why Choose AbhiBus Section */}
       <div className="why-choose-section mt-5">
-        <h2>Why Choose AbhiBus for Bus Ticket Booking?</h2>
+        <h2>Why Choose WeBus for Bus Ticket Booking?</h2>
         <div className="cards-container">
           <div className="card">
             <h3>3,50,000+ Bus Routes</h3>
@@ -124,8 +124,8 @@ const HomePage = () => {
       <div className="bus-info-section mt-5">
         <div className="bus-info-box">
           <h2>Bus Ticket Booking Information</h2>
-          <p>With AbhiBus, travellers can book bus tickets online at the lowest ticket fares. Travellers can choose their favorite bus for online bus booking. AbhiBus is the right place for reserving bus tickets as you will find a wide range of Private buses and SRTC (State Road Transport Corporation) buses available for online booking on AbhiBus.</p>
-          <p>Below, you will find various types of buses available to book bus tickets on AbhiBus at the lowest fare for bus ticket booking:</p>
+          <p>With WeBus, travellers can book bus tickets online at the lowest ticket fares. Travellers can choose their favorite bus for online bus booking. WeBus is the right place for reserving bus tickets as you will find a wide range of Private buses and SRTC (State Road Transport Corporation) buses available for online booking on WeBus.</p>
+          <p>Below, you will find various types of buses available to book bus tickets on WeBus at the lowest fare for bus ticket booking:</p>
           <div className="bus-info-content">
             <ul className="bus-info-list">
               <li>AC Buses</li>
@@ -160,8 +160,8 @@ const HomePage = () => {
 
       <section class="abhi-assured-section">
   <div class="abhi-assured-box">
-    <h2>Abhi Assured Program</h2>
-    <p>AbhiBus customers can avail more benefits by opting for Abhi Assured:</p>
+    <h2>Our Assured Program</h2>
+    <p>WeBus customers can avail more benefits by opting for We Assured:</p>
     <div class="abhi-assured-content">
       <ul class="abhi-assured-list">
         <li>150% Refund if bus cancelled</li>
@@ -169,8 +169,8 @@ const HomePage = () => {
         <li>Up to 100% Refund for bad quality service</li>
         <li>100% Refund for booking cancellation</li>
       </ul>
-      <p>One of the unique features that AbhiBus offers is Abhi Assured. This program guarantees a safe and secure bus travel experience for all passengers. AbhiBus customers can claim refunds for various reasons. For detailed information about eligibility and the refund policy, please check the Program here.</p>
-      <p>When booking a bus ticket on AbhiBus, look for the "Assured Partner" label to avail the associated benefits with the Abhi Assured program. This Assured Partner tag is visible on the bus search details page for AbhiBus Assured Bus Partners only. AbhiBus users should note that Abhi Assured benefits are provided only by the AbhiBus Assured Bus Partners. AbhiBus Assured Partner program ensures a hassle-free and comfortable bus journey for all its passengers by encouraging top-rated bus operators to maintain high-quality standards.</p>
+      <p>One of the unique features that WeBus offers is We Assured. This program guarantees a safe and secure bus travel experience for all passengers. WeBus customers can claim refunds for various reasons. For detailed information about eligibility and the refund policy, please check the Program here.</p>
+      <p>When booking a bus ticket on WeBus, look for the "Assured Partner" label to avail the associated benefits with the We Assured program. This Assured Partner tag is visible on the bus search details page for WeBus Assured Bus Partners only. WeBus users should note that We Assured benefits are provided only by the WeBus Assured Bus Partners. WeBus Assured Partner program ensures a hassle-free and comfortable bus journey for all its passengers by encouraging top-rated bus operators to maintain high-quality standards.</p>
     </div>
   </div>
 </section>
