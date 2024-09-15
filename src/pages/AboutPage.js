@@ -8,7 +8,7 @@ const AboutPage = () => (
     <h2>Features</h2>
     <ul class="features-list">
       <li>Cancellation at no cost</li>
-      <li>Abhimovies integration</li>
+      
       <li>Secure partnerships with Safe-T Buses</li>
       <li>Quick refunds</li>
       <li>Guaranteed lowest bus ticket prices</li>
