@@ -1,0 +1,66 @@
+/* Import styles for slick carousel */
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+/* Main Page Styles */
+.main-section {
+  padding: 2rem;
+}
+
+.search-container {
+  margin-bottom: 2rem;
+}
+
+.why-choose-section {
+  padding: 2rem;
+  background-color: #037272;
+  color: #edebd2;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fec20f;
+  color: #037272;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 18rem;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  padding: 1rem;
+  text-align: center;
+  color: #edebd2;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-media-icons a {
+  color: #edebd2;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #fec20f;
+}
