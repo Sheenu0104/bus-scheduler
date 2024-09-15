@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="navbar-brand">
         {/* Directly reference the logo in the public folder */}
         <img src="/assets/logo.png" alt="GroupBus Logo" className="navbar-logo" />
-        <Link to="/">GroupBus</Link>
+        <Link to="/">WeBus</Link>
       </div>
       <div className="navbar-links">
         <Link to="/about">About</Link>
