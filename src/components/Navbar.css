@@ -4,15 +4,26 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #037272; /* Match your theme color */
-  color: #edebd2; /* Match your theme color */
+  background-color: #037272;
+  color: #edebd2;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-brand a {
-  color: #edebd2; /* Match your theme color */
+  color: #edebd2;
   font-size: 1.5rem;
   text-decoration: none;
   font-weight: bold;
+  margin-left: 0.5rem; /* Space between logo and text */
+}
+
+.navbar-logo {
+  width: 40px; /* Adjust size of the logo */
+  height: auto;
 }
 
 .navbar-links {
@@ -22,13 +33,13 @@
 }
 
 .navbar-links a {
-  color: #edebd2; /* Match your theme color */
+  color: #edebd2;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .navbar-links a:hover {
-  color: #fec20f; /* Hover color for links */
+  color: #fec20f;
 }
 
 /* Buttons */
@@ -41,16 +52,16 @@
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
-  background-color: #fec20f; /* Button color */
-  color: #037272; /* Text color */
+  background-color: #fec20f;
+  color: #037272;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
 }
 
 .button:hover {
-  background-color: #edebd2; /* Hover color for buttons */
-  color: #037272; /* Hover text color */
+  background-color: #edebd2;
+  color: #037272;
 }
 
 /* Responsive Design */
