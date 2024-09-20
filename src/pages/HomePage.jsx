@@ -29,24 +29,96 @@ const HomePage = () => {
 
   return (
     <main className="main-section">
-      <div className="search-container">
-        <h1>Bus Scheduler</h1>
-        <div className="search-fields">
+      <div className="search-container h-72 rounded-xl lg:mx-16 p-10 " style={{
+        backgroundImage: "url('https://i.imgur.com/DXRjXiy.png')"
+      }}>
+        <h1 className=' text-[40px] md:text-[4vw] text-white xl:text-[50px] max-text-[50px] font-bold my-10'>Delhi Bus Ticket Scheduling</h1>
+        {/* <p className='text-left text-white'>Search for buses here</p> */}
+        <div className="search-fields text-lg shadow-lg rounded-full max-w-3/4 mx-auto  grid grid-cols-3 justify-stretch">
           <input
+          className='p-5 border-2 border-slate-500 rounded-l-full border-r-0'
             type="text"
             placeholder="Start Point"
             value={startPoint}
             onChange={(e) => setStartPoint(e.target.value)}
           />
           <input
+            className='p-5 border-2 border-slate-500 '
             type="text"
             placeholder="Destination Point"
             value={destination}
             onChange={(e) => setDestination(e.target.value)}
           />
-          <button onClick={handleSearch}>Search</button>
+          <button 
+          className= 'p-5 border-2 border-slate-500 rounded-r-full border-l-0 '
+          onClick={handleSearch}>Search</button>
         </div>
       </div>
+      <hr className='bg-slate-900 opacity-35 my-5 h-[2px]'/>
+      {/* top buses recommendation */}
+      <div className="top-buses lg:mx-16 my-5">
+        <h2 className='text-xl font-semibold mb-3'>Top Buses from Delhi</h2>
+        <div className="grid gap-6">
+          <div className="rounded-xl border-[1px] border-slate-600 border-opacity-50 p-5 w-full">
+            <div className="flex justify-between mb-3">
+              <h3 className="text-lg">Delhi To Manali</h3>
+              <p>from <b>INR 400</b></p>
+            </div>
+            <div className="grid grid-cols-4 gap-10 text-sm opacity-75 justify-items-center">
+              <p className='justify-self-start'>403 options</p>
+              <p>First Bus : <b>00:10</b></p>
+              <p>Last Bus : <b>19:10</b></p>
+              <p className='text-blue-700 justify-self-end underline font-semibold'>BOOK NOW</p>
+            </div>
+          </div>
+          <div className="rounded-xl border-[1px] border-slate-600 border-opacity-50  p-5 w-full">
+            <div className="flex justify-between mb-3">
+              <h3 className="text-lg">Delhi To Chandigarh</h3>
+              <p>from <b>INR 300</b></p>
+            </div>
+            <div className="grid grid-cols-4 gap-10 text-sm opacity-75 justify-items-center">
+              <p className='justify-self-start'>93 options</p>
+              <p>First Bus : <b>05:10</b></p>
+              <p>Last Bus : <b>17:30</b></p>
+              <p className='text-blue-700 justify-self-end underline font-semibold'>BOOK NOW</p>
+            </div>
+          </div>
+          <div className="rounded-xl border-[1px] border-slate-600 border-opacity-50  p-5 w-full">
+            <div className="flex justify-between mb-3">
+              <h3 className="text-lg">Delhi To Haridwar</h3>
+              <p>from <b>INR 150</b></p>
+            </div>
+            <div className="grid grid-cols-4 gap-10 text-sm opacity-75 justify-items-center">
+              <p className='justify-self-start'>100 options</p>
+              <p>First Bus : <b>04:30</b></p>
+              <p>Last Bus : <b>21:00</b></p>
+              <p className='text-blue-700 justify-self-end underline font-semibold'>BOOK NOW</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr className='bg-slate-900 opacity-35 my-5 h-[2px]'/>
+      <div className="why-choose-us lg:mx-16 my-5 mb-10">
+        <h2 className='text-xl font-semibold mb-3 text-left'>Why choose us?</h2>
+        <div className='grid grid-cols-3 gap-7 my-5'>
+          <div className="rounded-lg p-5  border-[1px] border-opacity-50 border-black">
+            <img src="https://img.freepik.com/free-vector/road-map-with-pointers_23-2147574293.jpg" alt="" className='h-5/6' />
+          <p className='mt-3 text-center font-semibold'>On route facilities</p>
+          </div>
+          <div className="rounded-lg p-5  border-[1px] border-opacity-50 border-black">
+            <img src="https://png.pngtree.com/background/20230316/original/pngtree-taxi-sign-on-the-city-map-with-stopwatch-and-route-concept-picture-image_2144474.jpg" alt="" className='h-5/6' />
+          <p className='mt-3 text-center font-semibold'>Cab to bus service</p>
+          </div>
+          <div className="rounded-lg p-5  border-[1px] border-opacity-50 border-black">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbw2-rez8VQ2zWPdmDBJ7wqMUpKqzUU_6Xg&s" className=' h-5/6' alt="" />
+          <p className='mt-3 text-center font-semibold'>Price Comparison</p>
+          </div>
+        </div>
+
+
+      </div>
+
 
       {/* Discount Offers Section */}
       <div className="discount-offers-section mt-5">
